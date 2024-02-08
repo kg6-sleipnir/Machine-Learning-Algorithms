@@ -3,7 +3,8 @@ Algorithms for machine learning using Python
 
 ## Purpose/Motivation
 To serve as an educational way to teach myself ML and better programming
-practices.
+practices. Additionally, as a way to compare different implementations of
+similar ML models using different frameworks.
 
 ## Current Models
 
