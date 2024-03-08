@@ -1,0 +1,10 @@
+[
+    {
+        "actual": "0",
+        "predicted": "tensor(0.0196)"
+    },
+    {
+        "actual": "1",
+        "predicted": "tensor(0.9804)"
+    }
+]

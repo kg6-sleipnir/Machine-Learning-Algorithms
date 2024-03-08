@@ -1,18 +1,12 @@
 metrics:
 - dvclive/metrics.json
 plots:
-- dvclive/plots/metrics:
-    x: step
-- dvclive/plots/sklearn/valid/metrics.json:
+- actual vs predicted:
     template: confusion
     x: actual
-    y: predicted
-    title: Confusion Matrix
-    x_label: True Label
-    y_label: Predicted Label
-- actual vs predicted:
-      template: confusion
-      x: actual
-      y:
-          dvclive\plots\sklearn\valid\metrics.json: predicted
+    y:
+      dvclive\plots\sklearn\valid\metrics.json: predicted
+
+- dvclive/plots/metrics:
+    x: step
 
